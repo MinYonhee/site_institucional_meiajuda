@@ -26,6 +26,7 @@ section,
 footer {
     padding:54px 0;
     background-color: #71C4A8;
+    opacity: 0.8;
 }
 
 h3 {
@@ -468,4 +469,18 @@ Estilos específicos para o carrossel de depoimentos
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+.medica-sem-fundo {
+    position: absolute;
+    bottom: 20px; 
+    right: 20px; 
+    width: 25%;
+    height: 25%;
+    object-fit: contain;
+}
+
+.medica-sem-fundo img {
+    width: 50%;
+    height: 50%;
+    object-fit:contain;
 }
