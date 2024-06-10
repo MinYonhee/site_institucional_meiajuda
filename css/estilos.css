@@ -52,9 +52,23 @@ p{
     display: inline-block;
     transition: 0.1;
 }
+
+.button.animate-button{
+    animation: animate-outline 1s ease-out infinite;
+}
 .button:hover{
     background-color: rgb(104, 217, 236);
 }
+
+@keyframes animate-outline {
+    from{
+        outline: 0px solid #4f9bf98a;
+    }
+    to {
+         outline: 15px solid #4f9bf98a;
+    }
+  }
+
 header {
     background-position: center;
     background-size: cover;
@@ -83,13 +97,17 @@ nav ul a{
     font-size: 14px;
     display: block;
 }
-nav ul a::after{
+
+nav ul a:not(.button)::after{
     content:"";
-    background-color: red;
+    background-color: blue;
     height: 3px;
-    width: 100%;
+    width: 0%;
     display:block;
+    margin: 0 auto;
+    transition: 0.3s;
 }
+
 nav ul a:hover::after{
     width: 100%;
 }
