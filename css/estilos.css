@@ -73,6 +73,7 @@ header {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-color: #71C4A8;
     /*background-color: #4CAF50;
     color: white;
     padding: 1em 0;
@@ -502,3 +503,42 @@ Estilos específicos para o carrossel de depoimentos
     height: 50%;
     object-fit:contain;
 }
+.quem-somos {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .equipe {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .membro {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .membro img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .membro h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .linkedin-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #0077B5; /* Cor do LinkedIn */
+  }
+  
+  .linkedin-link:hover {
+    color: #004d8c; /* Cor do LinkedIn ao passar o mouse */
+  }
