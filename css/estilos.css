@@ -139,7 +139,7 @@ nav ul a:hover::after{
     margin: 18px 0;
 }
 
-.faca-mais . container{
+.faca-mais .container{
     display: flex;
     align-items: center;
 }
