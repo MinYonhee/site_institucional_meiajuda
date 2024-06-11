@@ -128,7 +128,7 @@ nav ul a:hover::after{
 
 }
 .banner .banner-text h1{
-    font-size: 9;
+    font-size: 96px;
     color: white;
 }
 
@@ -137,6 +137,84 @@ nav ul a:hover::after{
     color: #ffffffb7;
     font-weight: lighter;
     margin: 18px 0;
+}
+
+.faca-mais . container{
+    display: flex;
+    align-items: center;
+}
+.faca-mais .faca-mais-text{
+    width: 50%;
+    padding: 0 40px;
+}
+.faca-mais .faca-mais-text h3{
+    font-size: 56px;
+}
+.faca-mais .faca-mais-text p{
+    margin: 5px 0 10px 0;
+}
+.faca-mais .faca-mais-img{
+    width: 50%;
+
+}
+.faca-mais .faca-mais-img img{
+    width: 100%;
+}
+.depoimentos h3{
+    text-align: center;
+}
+.depoimentos p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.depoimentos .card-item{
+    background-color: #004d8c;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+.depoimentos .card-item img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+.depoimentos .card-item .nome-user{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+.depoimentos .card-item .depoimento-user{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.depoimentos .card-item .estrelas{
+    margin: 15px 0;
+    border-top: 2px solid pink
+}
+.depoimentos .card-item .estrelas i{
+    color: red;
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+.depoimentos .card-item:hover{
+    background-color: #007bff;
+    margin-top: -5px;
+}
+.depoimentos .card-item:hover .nome-user,
+.depoimentos .card-item:hover .depoimento-user,
+depoimentos .card-item:hover .estrelas{
+    color: white;
+
 }
 .logo {
     position: absolute;
