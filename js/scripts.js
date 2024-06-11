@@ -1,3 +1,46 @@
+let ul = document.querySelector('nav .ul');
+
+function openMenu(){
+    ul.classList.add('open');
+}
+function closeMenu(){
+    ul.classList.remove('open');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
@@ -40,4 +83,4 @@ document.addEventListener('DOMContentLoaded', function() {
             prevEl: '.swiper-button-prev',
         },
     });
-});
+});//
