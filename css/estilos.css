@@ -139,26 +139,41 @@ nav ul a:hover::after{
     margin: 18px 0;
 }
 
-.faca-mais .container{
+.faca-mais .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adiciona espaçamento entre as seções */
 }
-.faca-mais .faca-mais-text{
+
+.faca-mais .faca-mais-text {
     width: 50%;
     padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.faca-mais .faca-mais-text h3{
-    font-size: 56px;
+
+.faca-mais .faca-mais-text h3 {
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 10px;
 }
-.faca-mais .faca-mais-text p{
+
+.faca-mais .faca-mais-text p {
     margin: 5px 0 10px 0;
 }
-.faca-mais .faca-mais-img{
-    width: 50%;
 
+.faca-mais .faca-mais-img {
+    width: 50%;
 }
-.faca-mais .faca-mais-img img{
+
+.faca-mais .faca-mais-img img {
     width: 100%;
+    height: auto; /* Para manter a proporção da imagem */
+}
+
+.button.animate-button {
+    margin-top: 10px; /* Espaçamento entre o parágrafo e o botão */
 }
 .depoimentos h3{
     text-align: center;
