@@ -227,9 +227,35 @@ nav ul a:hover::after{
 }
 .depoimentos .card-item:hover .nome-user,
 .depoimentos .card-item:hover .depoimento-user,
-depoimentos .card-item:hover .estrelas{
+.depoimentos .card-item:hover .estrelas{
     color: white;
 
+}
+.clientes h3,
+.clientes p{
+    text-align: center;
+}
+.clientes .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    background-color: #004d8c;
+    text-align: center;
+}
+.footer i{
+    color: #007bff;
+    font-size: 19px;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+.footer p{
+    margin-top: 10px;
+    color:#fff;
 }
 .logo {
     position: absolute;
