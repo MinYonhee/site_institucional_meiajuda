@@ -634,3 +634,7 @@ Estilos específicos para o carrossel de depoimentos
   .linkedin-link:hover {
     color: #004d8c; /* Cor do LinkedIn ao passar o mouse */
   }
+
+  .estrela{
+    color:yellow;
+  }
