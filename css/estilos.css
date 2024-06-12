@@ -26,7 +26,6 @@ section,
 footer {
     padding:54px 0;
     background-color: #71C4A8;
-    opacity: 0.8;
 }
 
 h3 {
@@ -74,11 +73,6 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-color: #71C4A8;
-    /*background-color: #4CAF50;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-    position: relative;*/
 }
 nav{
     display: flex;
@@ -294,13 +288,84 @@ nav .close-icon{
     border-radius: 10px;
 }
 /* end sobre*/
+/*diferencial*/
+.servicos h3{
+    text-align: center;
+}
+.servicos .container > p{
+    text-align: center;
+}
+.servicos .rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.servicos .row-card-item{
+    background-color: #ff424b;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+
+}
+.servicos .row-card-item:hover{
+    background-color: #004d8c;
+
+}
+.servicos .row-card-item:hover p{
+    color:white;
+}
+.servicos .row-card-item img{
+    background-color: #007bff;
+    border-radius: 14px;
+    width: 70px;
+    padding: 9px;
+}
+.servicos .row-card-item p.nome-servico{
+    margin: 5px 0;
+    transition: 0.3s;
+}
+.servicos .row-card-item p.descricao-servico{
+    transition: 0.3s;
+}
+/*dados*/
+.dados{
+    background: #004d8c;
+}
+.dados .container{
+   display: flex; 
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.dados .dados-item{
+    text-align: center;
+    margin: 15px;
+    color: #45a049;
+}
+.dados .dados-item img{
+    background-color: #007bff;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80px;
+
+}
+.dados .dados-item p{
+    font-size: 18px;
+}
+.dados .dados-item p strong{
+    font-size: 28px;
+}
+/*end diferencial*/
 @media(max-width: 830px){
     /*menu mobile*/
     .ul{
         position: fixed;
         top: 0;
         left: 0;
-        background: blue;
+        background: rgb(181, 181, 219);
         width: 100%;
         height: 100%;
         flex-direction: column;
@@ -311,7 +376,6 @@ nav .close-icon{
     }
     .ul.open{
         clip-path: circle(141.4% at 100% 0);
-
     }
 
     .ul a{
@@ -330,7 +394,6 @@ nav .close-icon{
         right: 28px;
     }
 }
-
 .logo {
     position: absolute;
     top: 10px;
@@ -554,112 +617,6 @@ section {
     margin: 0.5em 0;
 }
 
-Estilos específicos para o carrossel de depoimentos 
-.testimonial-carousel {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.swiper-slide {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    margin-right: 20px;
-    position: relative;
-    transition: transform 0.3s ease;
-}
-
-.testimonial-text {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-.testimonial-footer {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.testimonial-image img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 10px;
-}
-
-.testimonial-author {
-    font-size: 14px;
-}
-
-.testimonial-author .name {
-    font-weight: bold;
-}
-
-.swiper-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.swiper-wrapper {
-    display: flex;
-    transition: transform 0.3s ease;
-}
-
-.swiper-slide {
-    flex: 0 0 auto;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.swiper-button-prev {
-    left: 10px;
-}
-
-.swiper-button-next {
-    right: 10px;
-}
-
-.swiper-pagination {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-}
-
-.swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: #007bff;
-}
 
 .artigo1 {
     margin-top: 40vh; /* Ajuste esse valor conforme necessário  */
@@ -681,20 +638,7 @@ Estilos específicos para o carrossel de depoimentos
     height: 100%;
     object-fit: contain;
 }
-.medica-sem-fundo {
-    position: absolute;
-    bottom: 20px; 
-    right: 20px; 
-    width: 25%;
-    height: 25%;
-    object-fit: contain;
-}
 
-.medica-sem-fundo img {
-    width: 50%;
-    height: 50%;
-    object-fit:contain;
-}
 .quem-somos {
     padding: 50px 0;
     text-align: center;

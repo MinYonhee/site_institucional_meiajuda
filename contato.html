@@ -1,101 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MeIAjuda - Contato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/style-contato.css">
+    <title>Contato | MeIAjuda</title>
 </head>
-
 <body>
-    <!-- header -->
-    <header>
+    <header style="background-image: url('imagens/medico.png');">
+        <!--container-->
         <div class="container">
             <nav>
                 <a href="index.html">
-                    <img src="imagens/logo.png" alt="Logo MeIAjuda">
-                </a>
-                <ul class="ul">
-                    <a href="index.html">Home</a>
-                    <a href="sobre.html">Sobre</a>
-                    <a href="diferencial.html">Diferencial</a>
-                    <a href="equipe.html">Equipe</a>
-                    <a class="button" href="contato.html">Contato</a>
+                <img src="imagens/logo.png" alt="Logo MeIAjuda">
+            </a> 
+            <ul class="ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="diferencial.html">Diferencial</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a class="button" href="contato.html">Contato</a></li>
+                <li><div class="close-icon" onclick="closeMenu()">
+                    <i class="fa fa-times-circle"></i>
+                </div></li>
+            </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
 
-                </ul>
+            </div>
             </nav>
+            <section class="banner">
+                <div class="banner-text">
+                
+                   <h1>
+                    Contato
+                   </h1>
+                   <p>texto aqui</p>
+                    
+                </div>
+            </section>
         </div>
     </header>
-
-    <!-- main -->
-    <main>
-        <div class="contato">
-            <div class="container-contato">
-                <div class="title-contato">
-                    <h1>Contato</h1>
-                    <p>Formulário para contato.</p>
-                </div>
-                <form class="contato-items">
-                    <div class="contato-item">
-                        <label for="name">Nome</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="contato-item">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="contato-item">
-                        <label for="message">Mensagem</label>
-                        <textarea  id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
+   <section class="contato">
+    <div class="container">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.366477104025!2d-34.89815080000001!3d-8.064050399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1862d9875817%3A0xc6864cffb40589a9!2sReal%20Hospital%20Portugu%C3%AAs!5e0!3m2!1spt-BR!2sbr!4v1718181918001!5m2!1spt-BR!2sbr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </main>
+        <div class="contato-info">
+            <div class="left-side"> 
+                
+            </div>
+                <div class="right-side">
 
-    <!-- footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section about">
-                <h2>Sobre Nós</h2>
-                <p>Somos uma empresa dedicada a melhorar o acesso à saúde para a população de Recife e proximidades.</p>
+               
             </div>
-            <div class="footer-section links">
-                <h2>Links Rápidos</h2>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                </ul>
-            </div>
-            <div class="footer-section contact">
-                <h2>Contato</h2>
-                <p><strong>Endereço:</strong> Rua Exemplo, 123, Recife, PE</p>
-                <p><strong>Telefone:</strong> (81) 1234-5678</p>
-                <p><strong>Email:</strong> contato@exemplo.com</p>
-            </div>
-            <div class="footer-section social">
-                <h2>Redes Sociais</h2>
-                <a href="#"><img src="imagens/facebook-icon.png" alt="Facebook"></a>
-                <a href="#"><img src="imagens/twitter-icon.png" alt="Twitter"></a>
-                <a href="#"><img src="imagens/instagram-icon.png" alt="Instagram"></a>
-                <a href="#"><img src="imagens/linkedin-icon.png" alt="LinkedIn"></a>
-            </div>
+
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 MeIAjuda. Todos os direitos reservados. <a href="#">Termos de Uso</a> | <a href="#">Política
-                    de Privacidade</a></p>
+    </div>
+
+   </section>
+   
+    <footer class="footer">
+    <div class="container">
+        <div class="links">
+            <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a>
+            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+            <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+            <a href="#"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a>
         </div>
-    </footer>
+        <p>Desenvolvido por RainbowTech</p>
+        <p>&copy; 2024 MeIAjuda. Todos os direitos reservados. <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
+    </div>
 
-    <!-- script -->
-    <script src="js/scripts.js"></script>
-</body>
-
-</html>
+</footer>
