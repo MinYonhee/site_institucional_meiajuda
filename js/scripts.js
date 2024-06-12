@@ -1,9 +1,15 @@
 function openMenu() {
     document.querySelector('nav ul').classList.add('open');
+    document.querySelector('#openMenu').classList.add('open');
+    document.querySelector('#closeMenu').classList.add('open');
+    document.querySelector('#banner').classList.add('open');
 }
 
 function closeMenu() {
     document.querySelector('nav ul').classList.remove('open');
+    document.querySelector('#openMenu').classList.remove('open');
+    document.querySelector('#closeMenu').classList.remove('open');
+    document.querySelector('#banner').classList.remove('open');
 }
 
 
@@ -39,17 +45,17 @@ function closeMenu() {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
     const navItems = document.querySelectorAll('.nav-links a');
 
-    menuToggle.addEventListener('click', function() {
+    menuToggle.addEventListener('click', function () {
         navLinks.classList.toggle('active');
     });
 
     navItems.forEach(item => {
-        item.addEventListener('click', function(e) {
+        item.addEventListener('click', function (e) {
             const targetId = item.getAttribute('href').substring(1);
             const targetSection = document.getElementById(targetId);
             if (targetSection) {

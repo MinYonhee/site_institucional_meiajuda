@@ -13,29 +13,33 @@
         <!--container-->
         <div class="container">
             <nav>
-                <a href="index.html">
-                    <img src="imagens/logo.png" alt="Logo MeIAjuda">
-                </a>
-                <ul class="ul">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="diferencial.html">Diferencial</a></li>
-                    <li><a href="equipe.html">Equipe</a></li>
-                    <li><a class="button" href="contato.html">Contato</a></li>
-                    <li><div class="close-icon" onclick="closeMenu()">
-                        <i class="fa fa-times-circle"></i>
-                    </div></li>
-                </ul>
-                <div class="menu-icon" onclick="openMenu()">
-                    <i class="fa fa-bars"></i>
+                <div class="container-nav">
+                    <a href="index.html">
+                        <img src="imagens/logo.png" alt="Logo MeIAjuda">
+                    </a> 
+                    <ul class="ul ul-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="diferencial.html">Diferencial</a></li>
+                        <li><a href="equipe.html">Equipe</a></li>
+                        <li><a class="button" href="contato.html">Contato</a></li>
+                    </ul>
+                    <div class="menu-container">
+                        <div id="openMenu" class="menu-icon" onclick="openMenu()">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <div id="closeMenu" class="close-icon" onclick="closeMenu()">
+                            <i class="fa fa-times-circle"></i>
+                        </div>
+                    </div>
                 </div>
             </nav>
-            <section class="banner">
+            <div id="banner" class="banner">
                 <div class="banner-text">
                     <h1>Contato</h1>
                     <p>Estamos aqui para ajudar! Entre em contato conosco para mais informações sobre o MeIAjuda ou para qualquer suporte relacionado ao aplicativo.</p>
                 </div>
-            </section>
+            </div>
         </div>
     </header>
     <section class="contato">
@@ -86,5 +90,6 @@
             <p>&copy; 2024 MeIAjuda. Todos os direitos reservados. <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
         </div>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

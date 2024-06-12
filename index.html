@@ -12,63 +12,68 @@
     <header style="background-image: url('imagens/medico.png');">
         <div class="container">
             <nav>
-                <a href="index.html">
-                    <img src="imagens/logo.png" alt="Logo MeIAjuda">
-                </a> 
-                <ul class="ul">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="diferencial.html">Diferencial</a></li>
-                    <li><a href="equipe.html">Equipe</a></li>
-                    <li><a class="button" href="contato.html">Contato</a></li>
-                </ul>
-                <div class="menu-icon" onclick="openMenu()">
-                    <i class="fa fa-bars"></i>
-                </div>
-                <div class="close-icon" onclick="closeMenu()">
-                    <i class="fa fa-times-circle"></i>
+                <div class="container-nav">
+                    <a href="index.html">
+                        <img src="imagens/logo.png" alt="Logo MeIAjuda">
+                    </a> 
+                    <ul class="ul ul-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="diferencial.html">Diferencial</a></li>
+                        <li><a href="equipe.html">Equipe</a></li>
+                        <li><a class="button" href="contato.html">Contato</a></li>
+                    </ul>
+                    <div class="menu-container">
+                        <div id="openMenu" class="menu-icon" onclick="openMenu()">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <div id="closeMenu" class="close-icon" onclick="closeMenu()">
+                            <i class="fa fa-times-circle"></i>
+                        </div>
+                    </div>
                 </div>
             </nav>
-            <section class="banner">
+            <div id="banner" class="banner">
                 <div class="banner-text">
                     <h1>MeIAjuda</h1>
                     <p>Simplificando o acesso à saúde com inteligência, para cuidados rápidos, precisos e acessíveis.</p>
-                    <a href="sobre.html" class="button animate-button">Saiba mais</a>
+                    <a href="sobre.html" class="button animate-button button-home">Saiba mais</a>
                 </div>
-            </section>
+            </div>
         </div>
     </header>
     <section class="faca-mais">
-        <div class="container">
+        <div class="container" style="margin-bottom: 8rem;">
             <div class="faca-mais-text">
-                <h3>Outro tópico aqui</h3>
-                <p>algum texto aqui</p>
-                <a href="sobre.html" class="button animate-button">Conheça o MeIAjuda</a>
+                <h3>O que somos ou o que é?</h3>
+                <p>O MeIAjuda é um aplicativo baseado em Inteligência Artificial que realiza triagens iniciais de sintomas, fornece orientações básicas e encaminha os usuários para a unidade de saúde mais próxima ou para especialistas conforme necessário. Facilita o alívio provisório dos sintomas e otimiza o tempo e a qualidade do atendimento médico.</p>
+                <a href="sobre.html" class="button animate-button button-home">Conheça o MeIAjuda</a>
             </div>
-            <div class="faca-mais-img">
-                <img src="imagens/img-1.png" alt="">
+            <div style="width: 40%; border-radius: 10px;" class="faca-mais-img">
+                <img style="border-radius: 10px;" src="imagens/marca.png" alt="">
             </div>
         </div>
         <div class="container">
             <div class="faca-mais-img">
-                <img src="imagens/img-1.png" alt="">
+                <img style="width: 70%;" src="imagens/ods.png" alt="">
             </div>
             <div class="faca-mais-text">
-                <h3>Sua saúde em dia com o MeIAjuda</h3>
-                <p>algum texto aqui</p>
-                <a href="sobre.html" class="button animate-button">Conheça o MeIAjuda</a>
+                <h3>Alinhamento com as ODS</h3>
+                <p>O MeIAjuda contribui para diversos Objetivos de Desenvolvimento Sustentável como a ODS 3 voltada para Saúde e Bem-estar; a ODS 10 que busca a Redução das Desigualdades e parcialmente a ODS 16 para a Paz, Justiça e Instituições Eficazes .</p>
+                <a href="sobre.html" class="button animate-button button-home">Conheça o MeIAjuda</a>
             </div>
         </div>
     </section>
     <section class="depoimentos">
         <div class="container">
-            <h3>Nossos Depoimentos</h3>
-            <p>Sibtititulo aqui</p>
-            <div class="cards">
+            <h3>Principais Depoimentos</h3>
+            <p>Encontre os principais depoimentos aqui</p>
+            <div style="margin-bottom: 1rem;" class="cards">
                 <div class="card-item">
                     <img src="imagens/bea.jpg" alt="Bea">
                     <p class="nome-user">Beatriz Costa</p>
-                    <p class="depoimento-user">Depoimentos aqui</p>
+                    <p class="depoimento-user">"O MeIAjuda transformou a forma como eu acesso cuidados de saúde. A triagem de IA é precisa e rápida!"</p>
+                    <hr>
                     <div class="estrela">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -79,8 +84,9 @@
                 </div>
                 <div class="card-item">
                     <img src="imagens/giullya.jpg" alt="Giu">
-                    <p class="nome-user">Beatriz Costa</p>
-                    <p class="depoimento-user">Depoimentos aqui</p>
+                    <p class="nome-user">Giullya Gomes</p>
+                    <p class="depoimento-user">"Muito prático! Recebi orientações rápidas e fui encaminhada para o especialista certo."</p>
+                    <hr>
                     <div class="estrela">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -90,9 +96,10 @@
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="imagens/giullya.jpg" alt="Giu">
-                    <p class="nome-user">Beatriz Costa</p>
-                    <p class="depoimento-user">Depoimentos aqui</p>
+                    <img src="imagens/ayla.jpg" alt="Ayla">
+                    <p class="nome-user">Ayla Lopes</p>
+                    <p class="depoimento-user">"Com o MeIAjuda, consegui cuidar da minha saúde sem sair de casa. Excelente para quem vive longe de unidades de saúde."</p>
+                    <hr>
                     <div class="estrela">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -104,27 +111,26 @@
             </div>
         </div>
     </section>
-    <section class="clientes">
+    <section class="clientes" style="margin-bottom: 5rem;">
         <div class="container">
-            <h3>Hospitais Parceiros</h3>
-            <p>sibtitulo aqui</p>
-            <div>
-                <img src="imagens/apple.png" alt="">
-                <img src="imagens/microsoft.png" alt="">
-                <img src="imagens/slack.png" alt="">
-                <img src="imagens/google.png" alt="">
+            <h3 style="margin-bottom: 1rem;">Hospitais Parceiros</h3>
+            <div class="images-clients">
+                <img src="imagens/albertsabin.png" alt="">
+                <img src="imagens/hapvida.png" alt="">
+                <img src="imagens/unimed.png" alt="">
+                <img src="imagens/hospitalpt.png" alt="">
             </div>
         </div>
     </section>    
     <section class="faca-mais">
         <div class="container">
             <div class="faca-mais-text">
-                <h3>Outro tópico aqui</h3>
-                <p>algum texto aqui</p>
-                <a href="sobre.html" class="button animate-button">Conheça o MeIAjuda</a>
+                <h3>Oferecendo cuidados de saúde com tecnologia de ponta</h3>
+                <p>Venha ser um hospital parceiro!</p>
+                <a href="sobre.html" class="button animate-button button-home">Conheça o MeIAjuda</a>
             </div>
             <div class="faca-mais-img">
-                <img src="imagens/img-1.png" alt="">
+                <img style="width: 70%; border-radius: 10px;" src="imagens/side.jpg" alt="">
             </div>
         </div>
     </section>
