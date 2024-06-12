@@ -193,6 +193,7 @@ nav .close-icon{
 .cards{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .depoimentos .card-item{
     background-color: #004d8c;
@@ -359,6 +360,69 @@ nav .close-icon{
     font-size: 28px;
 }
 /*end diferencial*/
+/*pagina contato*/
+.contato-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.contato-info .left-side{
+    width: 50%;
+    padding: 30px;
+    background-color: #45a049;
+    border-radius: 14px;
+    margin-right: 50px;
+    height: fit-content;
+}
+.contato-info .left-side div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contato-info .left-side div i{
+    font-size: 24px;
+    margin-right: 20px;
+    color: white;
+}
+.contato-info .left-side p{
+    font-size: 17px;
+    color: white;
+}
+.contato-info.right-side{
+    width: 50%;
+
+}
+.contato-info.right-side input{
+   display: block;
+   width: 100;
+   margin-bottom: 10px;
+   height: 47px;
+   padding: 15px;
+   border-radius: 9px;
+   transition: 0.3s;
+   border: 1px solid #f1f1f1;
+   color: #212121;
+   font-weight: lighter;
+}
+
+.contato-info .right-side input:focus,
+.contato-info .right-side textarea::focus{
+    border-color: #0077B5;
+}
+
+.contato-info .right-side textarea{
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    transition: 0.3s;
+    resize: none;
+}
+.contato-info .right-side button{
+    border: none;
+}
 @media(max-width: 830px){
     /*menu mobile*/
     .ul{
@@ -392,6 +456,47 @@ nav .close-icon{
         position: absolute;
         top: 46px;
         right: 28px;
+    }
+    /* pagina home responsivo */
+    .faca-mais .faca-mais-text{
+        margin-top: 10px;
+        padding: 0 20px;
+        order: 1;
+    }
+    .faca-mais .container{
+        flex-direction: column;
+    }
+    .faca-mais .faca-mais-text h3{
+        font-size: 48px;
+    }
+    .faca-mais .faca-mais-text,
+    .faca-mais .faca-mais-img{
+        width: 100%;
+    }
+    /* banner responsivo */
+    .banner .banner-text{
+        padding: 0;
+        margin: 80px;
+    }
+    .banner .banner-text h1{
+        font-size: 80px;
+    }
+    .banner .banner-text p{
+        font-size: 15px;
+    }
+    .depoimentos .card-item{
+        width: 100%;
+    }
+    /*pagina sobre responsivo*/
+    .sobre .container{
+        flex-direction: column-reverse;
+    }
+    .sobre .sobre-img,
+    .sobre .sobre-text{
+        width: 100%;
+    }
+    .sobre .sobre-text{
+        margin-top: 40px;
     }
 }
 .logo {
@@ -563,20 +668,6 @@ section {
     border-radius: 5px;
 }
 
-.medica {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 500px;
-    height: 500px;
-    overflow: hidden;
-}
-
-.medica img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
 
 .cta {
     display: inline-block;
