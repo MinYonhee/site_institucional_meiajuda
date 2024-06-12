@@ -6,44 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilos.css">
-    <!-- Adicionar o CSS do Swiper 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/7.5.4/swiper-bundle.min.css">-->
     <title>MeIAjuda</title>
 </head>
 <body>
-    <!--<div class="medica">
-        <img src="imagens/medica.png" alt="Imagem de uma médica">
-    </div>-->
-    <!--header-->
     <header style="background-image: url('imagens/medico.png');">
-        <!--container-->
         <div class="container">
             <nav>
                 <a href="index.html">
-                <img src="imagens/logo.png" alt="Logo MeIAjuda">
-            </a> 
-            <ul class="ul">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="diferencial.html">Diferencial</a></li>
-                <li><a href="equipe.html">Equipe</a></li>
-                <li><a class="button" href="contato.html">Contato</a></li>
-                <li><div class="close-icon" onclick="closeMenu()">
+                    <img src="imagens/logo.png" alt="Logo MeIAjuda">
+                </a> 
+                <ul class="ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="diferencial.html">Diferencial</a></li>
+                    <li><a href="equipe.html">Equipe</a></li>
+                    <li><a class="button" href="contato.html">Contato</a></li>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="close-icon" onclick="closeMenu()">
                     <i class="fa fa-times-circle"></i>
-                </div></li>
-            </ul>
-            <div class="menu-icon" onclick="openMenu()">
-                <i class="fa fa-bars"></i>
-
-            </div>
+                </div>
             </nav>
             <section class="banner">
                 <div class="banner-text">
-                    <!--<div class="marca">
-                   <img src="imagens/marca.png"></div>-->
-                   <h1>
-                    MeIAjuda
-                   </h1>
+                    <h1>MeIAjuda</h1>
                     <p>Simplificando o acesso à saúde com inteligência, para cuidados rápidos, precisos e acessíveis.</p>
                     <a href="sobre.html" class="button animate-button">Saiba mais</a>
                 </div>
@@ -72,266 +60,86 @@
             </div>
         </div>
     </section>
-<section class="depoimentos">
-    <div class="container">
-        <h3>
-            Nossos Depoimentos
-        </h3>
-        <p>
-            Sibtititulo aqui
-        </p>
-        <div class="cards">
-            <!-- end card item 1-->
-            <div class="card-item">
-                <img src="imagens/bea.jpg" alt="Bea">
-                <p class="nome-user"> Beatriz Costa </p>
-                <p class="depoimento-user">
-                    Depoimentos aqui
-                </p>
-                <div class="estrela">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-            </div>
-                <!-- end card item 1-->
-                 <!--card item 2-->
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Nossos Depoimentos</h3>
+            <p>Sibtititulo aqui</p>
+            <div class="cards">
                 <div class="card-item">
-                    <img src="imagens/giullya.jpg" alt="Giu">
-                    <p class="nome-user"> Beatriz Costa </p>
-                    <p class="depoimento-user">
-                        Depoimentos aqui
-                    </p>
+                    <img src="imagens/bea.jpg" alt="Bea">
+                    <p class="nome-user">Beatriz Costa</p>
+                    <p class="depoimento-user">Depoimentos aqui</p>
                     <div class="estrela">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
-
                     </div>
                 </div>
-                <!-- end card item 2-->
-                 <!--card item 3-->
                 <div class="card-item">
                     <img src="imagens/giullya.jpg" alt="Giu">
-                    <p class="nome-user"> Beatriz Costa </p>
-                    <p class="depoimento-user">
-                        Depoimentos aqui
-                    </p>
+                    <p class="nome-user">Beatriz Costa</p>
+                    <p class="depoimento-user">Depoimentos aqui</p>
                     <div class="estrela">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
-
                     </div>
                 </div>
-                <!-- end card item 3-->
-        </div>
-    </div>
-</section>
-<section class="clientes">
-    <div class="container">
-        <h3>Hospitais Parceiros</h3>
-        <p>sibtitulo aqui</p>
-        <div>
-            <img src="imagens/apple.png" alt="">
-            <img src="imagens/microsoft.png" alt="">
-            <img src="imagens/slack.png" alt="">
-            <img src="imagens/google.png" alt="">
-        </div>
-    </div>
-</section>    
-<section class="faca-mais">
-    <div class="container">
-        <div class="faca-mais-text">
-            <h3>Outro tópico aqui</h3>
-            <p>algum texto aqui</p>
-            <a href="sobre.html" class="button animate-button">Conheça o MeIAjuda</a>
-        </div>
-        <div class="faca-mais-img">
-            <img src="imagens/img-1.png" alt="">
-        </div>
-    </div>
-</section>
-<footer class="footer">
-    <div class="container">
-        <div class="links">
-            <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a>
-            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
-            <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-            <a href="#"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a>
-        </div>
-        <p>Desenvolvido por RainbowTech</p>
-        <p>&copy; 2024 MeIAjuda. Todos os direitos reservados. <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
-    </div>
-
-</footer>
-
-
-
-
-
-
-
-<!--<div class="medica-sem-fundo">
-                    <img src="imagens/medica-sem-fundo.png"></div>-->
-             
-            
-            <!--</section>
-        </div>
-        <nav>
-            <div class="menu-toggle">
-                <div class="menu-icon">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="#diferencial">Diferencial</a></li>
-                <li><a href="#equipe">Equipe</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <div class="logo">
-        <img src="imagens/logo.png" alt="Logo do MeIAjuda" width="179.4" height="174.6">
-    </div>
-    <div class="marca">
-        <img src="imagens/marca.png"alt="Marca do MeIAjuda"
-    </div>
-</div>
-    <article class="artigo1"> 
-        Bem-vindo ao futuro dos cuidados de saúde! O MeIAjuda utiliza Inteligência Artificial (I.A) <br>
-        para proporcionar atendimento inicial e orientação sobre cuidados básicos de saúde. <br>
-        Transforme a maneira como você cuida da sua saúde com tecnologia de ponta, <br>
-        garantindo mais tranquilidade no seu dia a dia.
-    </article>
-    <main>
-        <section id="home">
-            <h1>Bem-vindo ao MeIAjuda</h1>
-            <p>Estamos desenvolvendo uma solução para melhorar o acesso à saúde para a população de Recife e proximidades.</p>
-            <a href="index.html" class="cta">Saiba Mais</a>
-        </section>
-        <section id="sobre">
-            <h2>Sobre Nós</h2>
-            <p>Informações sobre a equipe e a missão do projeto.</p>
-            <a href="sobre.html" class="cta">Leia mais</a>
-        </section>
-        <section id="diferencial">
-            <h2>Diferencial</h2>
-            <p>Detalhes sobre o que torna nosso projeto único.</p>
-            <a href="diferencial.html" class="cta">Veja Mais</a>
-        </section> -->
-        <!--<section id="oque-nos-destaca">
-            <h2>O QUE NOS DESTACA</h2>
-            <div class="destaca-container">
-                <div class="destaca-item">
-                    <img src="https://cespu.com.br/wp-content/uploads/2022/09/noun-international-4122281-1.svg" alt="Mobilidade internacional" width="80" height="80">
-                    <p><strong>Diferencial 1</strong></p>
-                    <p>Texto sobre o diferencial 1 aqui.</p>
-                </div>
-                <div class="destaca-item">
-                    <img src="https://cespu.com.br/wp-content/uploads/2022/09/noun-lab-4832711-1.svg" alt="Laboratórios especializados" width="80" height="80">
-                    <p><strong>Diferencial 2</strong></p>
-                    <p>Texto sobre o diferencial 2 aqui.</p>
-                </div>
-                <div class="destaca-item">
-                    <img src="https://cespu.com.br/wp-content/uploads/2022/09/noun-best-5117421-1.svg" alt="Inovação reconhecida em Portugal" width="80" height="80">
-                    <p><strong>Diferencial 3</strong></p>
-                    <p>Texto sobre o diferencial 3 aqui.</p>
-                </div>
-            </div>
-        </section>
-        <section id="equipe">
-            <h2>Nossa Equipe</h2>
-            <p>Informações sobre os membros da equipe.</p>
-            <a href="equipe.html" class="cta">Conheça a Equipe</a>
-        </section>
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Formulário para contato.</p>
-            <a href="contato.html" class="cta">Entre em Contato</a>
-        </section>
-        <section id="depoimentos">
-            <h2>Depoimentos</h2>
-            <div class="testimonial-carousel swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <blockquote>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                            <footer>João Silva</footer>
-                        </blockquote>
+                <div class="card-item">
+                    <img src="imagens/giullya.jpg" alt="Giu">
+                    <p class="nome-user">Beatriz Costa</p>
+                    <p class="depoimento-user">Depoimentos aqui</p>
+                    <div class="estrela">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
                     </div>
-                    <div class="swiper-slide">
-                        <blockquote>
-                            <p>"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-                            <footer>Maria Souza</footer>
-                        </blockquote>
-                    </div>
-                    <div class="swiper-slide">
-                        <blockquote>
-                            <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
-                            <footer>Carlos Oliveira</footer>
-                        </blockquote>
-                    </div>
-                </div> -->
-                <!-- Adicionar navegação e paginação 
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </section>
-        
-    </main>
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section about">
-                <h2>Sobre Nós</h2>
-                <p>Somos uma empresa dedicada a melhorar o acesso à saúde para a população de Recife e proximidades.</p>
-            </div>
-            <div class="footer-section links">
-                <h2>Links Rápidos</h2>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                </ul>
-            </div>
-            <div class="footer-section contact">
-                <h2>Contato</h2>
-                <p><strong>Endereço:</strong> Rua Exemplo, 123, Recife, PE</p>
-                <p><strong>Telefone:</strong> (81) 1234-5678</p>
-                <p><strong>Email:</strong> contato@exemplo.com</p>
-            </div>
-            <div class="footer-section social">
-                <h2>Redes Sociais</h2>
-                <a href="#"><img src="imagens/facebook-icon.png" alt="Facebook"></a>
-                <a href="#"><img src="imagens/twitter-icon.png" alt="Twitter"></a>
-                <a href="#"><img src="imagens/instagram-icon.png" alt="Instagram"></a>
-                <a href="#"><img src="imagens/linkedin-icon.png" alt="LinkedIn"></a>
+                </div>
             </div>
         </div>
-        <div class="footer-bottom">
+    </section>
+    <section class="clientes">
+        <div class="container">
+            <h3>Hospitais Parceiros</h3>
+            <p>sibtitulo aqui</p>
+            <div>
+                <img src="imagens/apple.png" alt="">
+                <img src="imagens/microsoft.png" alt="">
+                <img src="imagens/slack.png" alt="">
+                <img src="imagens/google.png" alt="">
+            </div>
+        </div>
+    </section>    
+    <section class="faca-mais">
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Outro tópico aqui</h3>
+                <p>algum texto aqui</p>
+                <a href="sobre.html" class="button animate-button">Conheça o MeIAjuda</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="imagens/img-1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a>
+                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+                <a href="#"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a>
+            </div>
+            <p>Desenvolvido por RainbowTech</p>
             <p>&copy; 2024 MeIAjuda. Todos os direitos reservados. <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
         </div>
     </footer>
-    <!-- Adicionar o JavaScript do Swiper 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/7.5.4/swiper-bundle.min.js"></script>
-    <script src="js/scripts.js"></script> -->
-    <script src="js/scripts.js">
-
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
