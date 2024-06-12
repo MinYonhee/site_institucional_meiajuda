@@ -2,7 +2,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilos.css">
     <!-- Adicionar o CSS do Swiper 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swiper/7.5.4/swiper-bundle.min.css">-->
@@ -21,23 +23,164 @@
                 <img src="imagens/logo.png" alt="Logo MeIAjuda">
             </a> 
             <ul class="ul">
-                <a href="index.html">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="diferencial.html">Diferencial</a>
-                <a href="equipe.html">Equipe</a>
-                <a class="button" href="contato.html">Contato</a>
-
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="diferencial.html">Diferencial</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a class="button" href="contato.html">Contato</a></li>
+                <li><div class="close-icon" onclick="closeMenu()">
+                    <i class="fa fa-times-circle"></i>
+                </div></li>
             </ul>
+            <div class="menu-icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+
+            </div>
             </nav>
             <section class="banner">
                 <div class="banner-text">
-                    <div class="marca">
-                   <img src="imagens/marca.png"></div>
-                    <p>Simplificando o acesso à saúde com inteligência, para cuidados rápidos, precisos e acessíveis."</p>
+                    <!--<div class="marca">
+                   <img src="imagens/marca.png"></div>-->
+                   <h1>
+                    MeIAjuda
+                   </h1>
+                    <p>Simplificando o acesso à saúde com inteligência, para cuidados rápidos, precisos e acessíveis.</p>
                     <a href="sobre.html" class="button animate-button">Saiba mais</a>
                 </div>
-                <div class="medica-sem-fundo">
-                    <img src="imagens/medica-sem-fundo.png"></div>
+            </section>
+        </div>
+    </header>
+    <section class="faca-mais">
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Atendimento Inteligente e Personalizado</h3>
+                <p>O MeIAjuda revoluciona o acesso à saúde ao integrar inteligência artificial no atendimento médico. Nossa IA não só identifica os possíveis diagnósticos, mas também avalia a urgência de cada caso, proporcionando uma experiência de saúde personalizada e imediata. A partir dos dados fornecidos por você, nosso sistema sugere as melhores ações e encaminhamentos, economizando tempo e garantindo que você chegue ao lugar certo. Além disso, a geolocalização ajuda a encontrar a unidade de saúde mais próxima e especializada, tornando o processo de busca por atendimento mais fácil e eficiente.</p>
+                <a href="sobre.html" class="button animate-button">Conheça o MeIAjuda</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="imagens/img-1.png" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="faca-mais-img">
+                <img src="imagens/img-1.png" alt="">
+            </div>
+            <div class="faca-mais-text">
+                <h3>Sua saúde em dia com o MeIAjuda</h3>
+                <p>No MeIAjuda, entendemos a importância de manter sua saúde em dia. Nosso aplicativo utiliza tecnologia de Inteligência Artificial para fornecer diagnósticos rápidos e precisos, avaliando o grau de risco dos seus sintomas. Com base nessa análise, encaminhamos você para a unidade de saúde mais próxima e adequada. Tudo isso sem a necessidade de agendamentos prévios, garantindo que você receba o atendimento necessário no menor tempo possível. Mantenha-se informado e cuide da sua saúde com a eficiência e a precisão que você merece.</p>
+                <a href="sobre.html" class="button animate-button">Conheça o MeIAjuda</a>
+            </div>
+        </div>
+    </section>
+<section class="depoimentos">
+    <div class="container">
+        <h3>
+            Nossos Depoimentos
+        </h3>
+        <p>
+            Sibtititulo aqui
+        </p>
+        <div class="cards">
+            <!-- end card item 1-->
+            <div class="card-item">
+                <img src="imagens/bea.jpg" alt="Bea">
+                <p class="nome-user"> Beatriz Costa </p>
+                <p class="depoimento-user">
+                    Depoimentos aqui
+                </p>
+                <div class="estrela">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+            </div>
+                <!-- end card item 1-->
+                 <!--card item 2-->
+                <div class="card-item">
+                    <img src="imagens/giullya.jpg" alt="Giu">
+                    <p class="nome-user"> Beatriz Costa </p>
+                    <p class="depoimento-user">
+                        Depoimentos aqui
+                    </p>
+                    <div class="estrela">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+                <!-- end card item 2-->
+                 <!--card item 3-->
+                <div class="card-item">
+                    <img src="imagens/giullya.jpg" alt="Giu">
+                    <p class="nome-user"> Beatriz Costa </p>
+                    <p class="depoimento-user">
+                        Depoimentos aqui
+                    </p>
+                    <div class="estrela">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+                <!-- end card item 3-->
+        </div>
+    </div>
+</section>
+<section class="clientes">
+    <div class="container">
+        <h3>Hospitais Parceiros</h3>
+        <p>sibtitulo aqui</p>
+        <div>
+            <img src="imagens/apple.png" alt="">
+            <img src="imagens/microsoft.png" alt="">
+            <img src="imagens/slack.png" alt="">
+            <img src="imagens/google.png" alt="">
+        </div>
+    </div>
+</section>    
+<section class="faca-mais">
+    <div class="container">
+        <div class="faca-mais-text">
+            <h3>Outro tópico aqui</h3>
+            <p>algum texto aqui</p>
+            <a href="sobre.html" class="button animate-button">Conheça o MeIAjuda</a>
+        </div>
+        <div class="faca-mais-img">
+            <img src="imagens/img-1.png" alt="">
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="links">
+            <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a>
+            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+            <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+            <a href="#"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a>
+        </div>
+        <p>Desenvolvido por RainbowTech</p>
+        <p>&copy; 2024 MeIAjuda. Todos os direitos reservados. <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+<!--<div class="medica-sem-fundo">
+                    <img src="imagens/medica-sem-fundo.png"></div>-->
              
             
             <!--</section>
@@ -187,5 +330,8 @@
     <!-- Adicionar o JavaScript do Swiper 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/swiper/7.5.4/swiper-bundle.min.js"></script>
     <script src="js/scripts.js"></script> -->
+    <script src="js/scripts.js">
+
+    </script>
 </body>
 </html>

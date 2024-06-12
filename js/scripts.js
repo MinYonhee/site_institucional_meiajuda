@@ -1,3 +1,44 @@
+function openMenu() {
+    document.querySelector('nav ul').classList.add('open');
+}
+
+function closeMenu() {
+    document.querySelector('nav ul').classList.remove('open');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
@@ -40,4 +81,4 @@ document.addEventListener('DOMContentLoaded', function() {
             prevEl: '.swiper-button-prev',
         },
     });
-});
+});//

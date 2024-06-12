@@ -2,34 +2,36 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MeIAjuda - Equipe</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
+    <!-- header -->
     <header>
-        <nav>
-            <div class="menu-toggle">
-                <div class="menu-icon">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="diferencial.html">Diferencial</a></li>
-                <li><a href="equipe.html">Equipe</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="imagens/logo.png" alt="Logo MeIAjuda">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="diferencial.html">Diferencial</a>
+                    <a href="equipe.html">Equipe</a>
+                    <a class="button" href="contato.html">Contato</a>
+
+                </ul>
+            </nav>
+        </div>
     </header>
+    
+    <!-- main -->
     <main>
         <section class="quem-somos">
             <h2>Nossa equipe</h2>
-            <h1> Só pra dar commit</h1>
             <div class="equipe">
               <div class="membro">
                 <img src="imagens/ayla.jpg" alt="Foto de Ayla">
@@ -53,15 +55,17 @@
                   </a>
               </div>
               <div class="membro">
-                <img src="imagem-luana.jpg" alt="Foto de Luana">
+                <img src="imagens/luana.jpg" alt="Foto de Luana">
                 <h3>Luana Cabral</h3>
-                <a href="https://www.linkedin.com/luana" target="_blank" class="linkedin-link">
+                <a href="https://www.linkedin.com/in/luana-cabral-8562232ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="linkedin-link">
                     <i class="fab fa-linkedin"></i>
                   </a>
               </div>
             </div>
           </section>
     </main>
+    
+    <!-- footer -->
     <footer>
         <div class="footer-content">
             <div class="footer-section about">
@@ -93,9 +97,12 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 MeIAjuda. Todos os direitos reservados. <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
+            <p>&copy; 2024 MeIAjuda. Todos os direitos reservados. <a href="#">Termos de Uso</a> | <a href="#">Política
+                    de Privacidade</a></p>
         </div>
     </footer>
+
+    <!-- script -->
     <script src="js/scripts.js"></script>
 </body>
 </html>
