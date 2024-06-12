@@ -16,7 +16,6 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    
     color: #333; /* Cor padrão do texto */
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -36,11 +35,11 @@ p{
     color: #71C4A8;
 }
 
-.container{
+/*.container{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
-}
+}*/
 
 .button{
     background-color: #71C4A8;
@@ -137,7 +136,7 @@ nav .close-icon{
 }
 .banner .banner-text h1{
     font-size: 96px;
-    color: white;
+    color: rgb(214, 0, 0);
 }
 
 .banner .banner-text p{
