@@ -498,6 +498,26 @@ nav .close-icon{
     .sobre .sobre-text{
         margin-top: 40px;
     }
+    /* pagina contato responsivo*/
+    .contato .contato-info{
+        flex-direction: column-reverse;
+    }
+    .contato-info .right-side,
+    .contato-info .left-side{
+        width: 100%;
+    }
+    .contato-info .right-side{
+        margin-bottom: 30px;
+
+    }
+}
+@media (max-width: 500px){
+    .banner .banner-text h1{
+        font-size: 50px;
+    }
+    .faca-mais .faca-mais-text h3{
+        
+    }
 }
 .logo {
     position: absolute;
