@@ -256,7 +256,7 @@ nav .close-icon{
 .footer i{
     color: #007bff;
     font-size: 19px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: 3px;
     border-radius: 10px;
@@ -361,12 +361,12 @@ nav .close-icon{
 }
 /*end diferencial*/
 /*pagina contato*/
-.contato-info{
+.contato-info {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-.contato-info .left-side{
+.contato-info .left-side {
     width: 50%;
     padding: 30px;
     background-color: #45a049;
@@ -374,43 +374,42 @@ nav .close-icon{
     margin-right: 50px;
     height: fit-content;
 }
-.contato-info .left-side div{
+.contato-info .left-side div {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
-.contato-info .left-side div i{
+.contato-info .left-side div i {
     font-size: 24px;
     margin-right: 20px;
     color: white;
 }
-.contato-info .left-side p{
+.contato-info .left-side p {
     font-size: 17px;
     color: white;
 }
-.contato-info.right-side{
+.contato-info .right-side {
     width: 50%;
-
 }
-.contato-info.right-side input{
-   display: block;
-   width: 100;
-   margin-bottom: 10px;
-   height: 47px;
-   padding: 15px;
-   border-radius: 9px;
-   transition: 0.3s;
-   border: 1px solid #f1f1f1;
-   color: #212121;
-   font-weight: lighter;
+.contato-info .right-side input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 47px;
+    padding: 15px;
+    border-radius: 9px;
+    transition: 0.3s;
+    border: 1px solid #f1f1f1;
+    color: #212121;
+    font-weight: lighter;
 }
 
 .contato-info .right-side input:focus,
-.contato-info .right-side textarea::focus{
+.contato-info .right-side textarea:focus {
     border-color: #0077B5;
 }
 
-.contato-info .right-side textarea{
+.contato-info .right-side textarea {
     border: 1px solid #f1f1f1;
     color: #212121;
     border-radius: 9px;
@@ -420,9 +419,10 @@ nav .close-icon{
     transition: 0.3s;
     resize: none;
 }
-.contato-info .right-side button{
+.contato-info .right-side button {
     border: none;
 }
+
 @media(max-width: 830px){
     /*menu mobile*/
     .ul{
@@ -516,7 +516,7 @@ nav .close-icon{
         font-size: 50px;
     }
     .faca-mais .faca-mais-text h3{
-        
+
     }
 }
 .logo {
@@ -614,67 +614,6 @@ nav ul li a {
 
 main {
     padding: 2em;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.footer-section {
-    flex: 1;
-    margin: 1em;
-    min-width: 200px;
-}
-
-.footer-section h2 {
-    color: #4CAF50;
-}
-
-.footer-section p, .footer-section ul, .footer-section a {
-    color: #aaa;
-    text-decoration: none;
-    margin: 0.5em 0;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin: 0.5em 0;
-}
-
-.footer-section a:hover {
-    color: white;
-}
-
-.footer-bottom {
-    background-color: #222;
-    padding: 0.5em 0;
-}
-
-.footer-bottom a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-.footer-bottom a:hover {
-    text-decoration: underline;
-}
-
-.footer-section .social a {
-    margin: 0 10px;
-    display: inline-block;
 }
 
 h1, h2 {
